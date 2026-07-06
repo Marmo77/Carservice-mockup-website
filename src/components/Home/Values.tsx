@@ -1,6 +1,6 @@
 import { ShieldCheck, Clock, Settings, Users } from "lucide-react";
 import { motion, useInView } from "motion/react";
-import { valuesData } from "@/data/autoScanData";
+import { valuesData, contactInfo } from "@/data/company";
 import { useState, useEffect, useRef } from "react";
 
 function AnimatedCounter({ from, to, duration, suffix, className }: { from: number, to: number, duration: number, suffix: string, className: string }) {
@@ -57,7 +57,7 @@ export default function Values() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-foreground uppercase">
-            Dlaczego <span className="text-primary">Auto-Scan?</span>
+            Dlaczego <span className="text-primary">{contactInfo.name}?</span>
           </h2>
           <div className="h-1 w-24 bg-primary mx-auto mt-6 mb-6"></div>
           <p className="max-w-2xl text-lg text-muted-foreground mx-auto font-medium">

@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet-async';
-import { contactInfo } from '@/data/autoScanData';
+import { contactInfo } from '@/data/company';
 
 interface SEOProps {
   title?: string;

@@ -1,5 +1,5 @@
 import Subpage from "@/components/Subpage";
-import { services, mechanikaServices, mechanikaUdogodnienia, mechanikaCzesci } from "@/data/autoScanData";
+import { services, mechanikaServices, mechanikaUdogodnienia, mechanikaCzesci } from "@/data/company";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Cpu, Wrench, Car, ShieldAlert, Snowflake, Wind, CircleDot } from "lucide-react";

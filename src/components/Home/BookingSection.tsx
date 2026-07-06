@@ -1,6 +1,6 @@
 import { Phone, MapPin, Mail } from "lucide-react";
 import BookingForm from "./Booking/BookingForm";
-import { contactInfo, bookingData } from "@/data/autoScanData";
+import { contactInfo, bookingData } from "@/data/company";
 
 export default function BookingSection() {
   const checkIsOpen = () => {
@@ -23,7 +23,7 @@ export default function BookingSection() {
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-start max-w-6xl mx-auto">
       {/* Left Column: Quick Info */}
       <div className="lg:col-span-5 flex flex-col space-y-10 lg:pr-12 relative">
-        <div className="hidden lg:block absolute right-0 top-0 bottom-0 w-[1px] bg-zinc-200"></div>
+        <div className="hidden lg:block absolute right-0 top-0 bottom-0 w-px bg-zinc-200"></div>
 
         <div>
           <h3 className="text-4xl md:text-[2.5rem] font-black tracking-tighter text-foreground uppercase flex items-center gap-3 leading-none">

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { services } from "@/data/autoScanData";
+import { services } from "@/data/company";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { CarFront, ShieldAlert, Wrench, Zap, Truck, CheckCircle, ArrowRight } from "lucide-react";
 import { motion } from "motion/react";

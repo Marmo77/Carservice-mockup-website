@@ -1,6 +1,6 @@
 import { MapPin, Phone, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
-import { contactInfo } from "@/data/autoScanData";
+import { contactInfo } from "@/data/company";
 
 export default function Footer() {
   return (
@@ -12,8 +12,8 @@ export default function Footer() {
           <div className="md:col-span-1 lg:col-span-2 flex flex-col items-center md:items-start">
             <div className="flex items-center gap-3 mb-6">
               <div className="flex flex-col">
-                <span className="font-black text-2xl tracking-tighter text-foreground uppercase leading-none">
-                  AUTO<span className="text-primary">SCAN</span>
+                <span className="font-black text-3xl tracking-tighter text-foreground uppercase leading-none">
+                  {contactInfo.name.split(" ")[0]}<span className="text-primary">{contactInfo.name.split(" ")[1]}</span>
                 </span>
                 <span className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest leading-none mt-1">
                   Serwis Samochodowy
@@ -98,7 +98,7 @@ export default function Footer() {
 
         <div className="py-4 border-t border-zinc-200 flex flex-col md:flex-row justify-between items-center gap-2">
           <p className="text-zinc-400 text-[11px] font-medium">
-            © {new Date().getFullYear()} AUTO-SCAN. Wszelkie prawa zastrzeżone.
+            © {new Date().getFullYear()} {contactInfo.name}. Wszelkie prawa zastrzeżone.
           </p>
           <div className="flex gap-4 text-[11px] text-zinc-400 font-medium">
             <Link to="/polityka-prywatnosci" className="hover:text-amber-500 transition-colors uppercase tracking-wider">Polityka Prywatności i Cookies</Link>

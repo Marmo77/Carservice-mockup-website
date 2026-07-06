@@ -1,5 +1,5 @@
 import Subpage from "@/components/Subpage";
-import { services, skpFeatures } from "@/data/autoScanData";
+import { services, skpFeatures } from "@/data/company";
 import { CheckCircle2, Plus, Minus } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";

@@ -1,5 +1,5 @@
 import Subpage from "@/components/Subpage";
-import { services, contactInfo, autoholowaniePricing, holowanieServices } from "@/data/autoScanData";
+import { services, contactInfo, autoholowaniePricing, holowanieServices } from "@/data/company";
 import { Phone, Truck, Wrench, Fuel, Info } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";

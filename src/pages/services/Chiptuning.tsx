@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2, Plus, Minus } from "lucide-react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { services } from "@/data/autoScanData";
+import { services } from "@/data/company";
 
 function FAQItem({ item }: { item: any, index: number }) {
   const [isOpen, setIsOpen] = useState(false);

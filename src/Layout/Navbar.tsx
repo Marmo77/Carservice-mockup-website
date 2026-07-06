@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { contactInfo } from "@/data/autoScanData";
+import { contactInfo } from "@/data/company";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,8 +36,8 @@ export default function Navbar() {
             <div className="flex-shrink-0">
               <Link to="/" className="flex items-center gap-3 py-2">
                 <div className="flex flex-col">
-                  <span className="font-black text-2xl tracking-tighter text-foreground uppercase leading-none">
-                    AUTO<span className="text-primary">SCAN</span>
+                  <span className="font-black text-3xl tracking-tighter text-foreground uppercase leading-none">
+                    {contactInfo.name.split(" ")[0]}<span className="text-primary">{contactInfo.name.split(" ")[1]}</span>
                   </span>
                   <span className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest leading-none mt-1">
                     Serwis Samochodowy

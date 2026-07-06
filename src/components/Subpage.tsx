@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft, ArrowRight } from "lucide-react";
-import { services } from "@/data/autoScanData";
+import { services } from "@/data/company";
 
 interface SubpageProps {
   title: string;

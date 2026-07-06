@@ -1,4 +1,4 @@
-import { trustBadges } from "@/data/autoScanData";
+import { trustBadges } from "@/data/company";
 import { CheckCircle, ShieldCheck, ThumbsUp, Zap } from "lucide-react";
 
 export default function TrustBadges() {

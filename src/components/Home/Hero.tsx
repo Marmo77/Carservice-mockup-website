@@ -1,7 +1,7 @@
 
 import { Calendar, Wrench } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { heroData } from "@/data/autoScanData";
+import { heroData } from "@/data/company";
 import { motion } from "motion/react";
 
 export default function Hero() {

@@ -12,7 +12,7 @@ import { Input } from "@/components/ui/input";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Calendar } from "@/components/ui/calendar";
 
-import { bookingServices } from "@/data/autoScanData";
+import { bookingServices } from "@/data/company";
 
 const formSchema = z.object({
   name: z.string().min(2, "Imię i nazwisko jest wymagane"),

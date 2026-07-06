@@ -1,5 +1,5 @@
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
-import { contactInfo } from "@/data/autoScanData";
+import { contactInfo } from "@/data/company";
 
 export default function ContactInfo() {
   return (
